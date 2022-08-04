@@ -1,7 +1,3 @@
-package ex11;
-
-
-
 public class Life {
     public static void main(String[] args) {
         Dev dev = new Dev("Software Engineer");

@@ -1,5 +1,3 @@
-package ex11;
-
 public class Dev {
     String profissao;
 
