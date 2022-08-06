@@ -1,14 +1,10 @@
-package ex04;
+package exercicios;
 
-import java.util.Scanner;
-
-public class Main {
+public class Ex04 extends AuxScanner{
 
     public static void main(String[] args) {
 
         int a, b, c = 0;
-
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe dois números inteiros");
         a = sc.nextInt();

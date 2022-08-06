@@ -1,15 +1,12 @@
-package ex03;
+package exercicios;
 
-import java.util.Scanner;
-
-public class Main {
+public class Ex03 extends AuxScanner{
 
     public static void main(String[] args) {
 
         double a, b, c, x, delta;
         // ax² + bx + c
         // -b +- raiz b2 -4ac / 2a
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe A");
         a = sc.nextDouble();

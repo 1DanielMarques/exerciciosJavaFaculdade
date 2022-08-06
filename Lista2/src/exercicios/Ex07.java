@@ -1,12 +1,9 @@
-package ex07;
+package exercicios;
 
-import java.util.Scanner;
-
-public class Main {
+public class Ex07 extends AuxScanner {
     public static void main(String[] args) {
-
         double n1;
-        Scanner sc = new Scanner(System.in);
+
         System.out.println("Informe um valor");
         n1 = sc.nextDouble();
         if (n1 % 2 == 0) {

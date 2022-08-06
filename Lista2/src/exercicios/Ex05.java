@@ -1,13 +1,10 @@
-package ex05;
+package exercicios;
 
-import java.util.Scanner;
-
-public class Main {
+public class Ex05 extends AuxScanner{
 
     public static void main(String[] args) {
         int numero;
 
-        Scanner sc = new Scanner(System.in);
         System.out.println("Informe um número");
         numero = sc.nextInt();
         if (numero > 0) {

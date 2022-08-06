@@ -1,14 +1,10 @@
-package ex02;
+package exercicios;
 
-import java.util.Scanner;
-
-public class Main {
+public class Ex02 extends AuxScanner{
 
     public static void main(String[] args) {
         String nome, sexo, estadoC;
         int anos;
-
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe o nome");
         nome = sc.nextLine();

@@ -1,12 +1,9 @@
-package ex06;
+package exercicios;
 
-import java.util.Scanner;
-
-public class Main {
+public class Ex06 extends AuxScanner{
 
     public static void main(String[] args) {
         double n1, n2, n3, maior = 0, meio = 0, menor = 0;
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe três números");
         n1 = sc.nextDouble();

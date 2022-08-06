@@ -1,13 +1,10 @@
-package ex10;
+package exercicios;
 
-import java.util.Scanner;
-
-public class Main {
+public class Ex10 extends AuxScanner{
     public static void main(String[] args) {
 
         double l1, l2, l3;
         String tipo;
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe os três lados do triângulo: ");
         l1 = sc.nextDouble();

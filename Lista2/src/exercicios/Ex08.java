@@ -1,13 +1,10 @@
-package ex08;
+package exercicios;
 
-import java.util.Scanner;
-
-public class Main {
+public class Ex08 extends AuxScanner{
     public static void main(String[] args) {
 
         int maior, meio, menor, numero;
         int lista[] = new int[5];
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Informe cinco números");
         for (int i = 0; i <= 4; i++) {

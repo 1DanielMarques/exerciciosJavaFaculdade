@@ -1,12 +1,9 @@
-package ex09;
+package exercicios;
 
-import java.util.Scanner;
-
-public class Main {
+public class Ex09 extends AuxScanner{
     public static void main(String[] args) {
         double altura, peso;
         String sexo;
-        Scanner sc = new Scanner(System.in);
         System.out.println("Altura: ");
         altura = sc.nextDouble();
         System.out.println("Sexo: F/M");
