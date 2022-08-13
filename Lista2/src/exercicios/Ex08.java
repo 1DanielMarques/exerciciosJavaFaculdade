@@ -8,32 +8,11 @@ public class Ex08 extends AuxScanner {
 
         System.out.println("Informe 5 números");
 
-        while (c != 0) {
-            if (c > 1) {
-                System.out.println("Insira 5 números diferentes");
-            }
-            for (int i = 0; i <= 4; i++) {
-                numero = sc.nextInt();
-                lista[i] = numero;
-            }
+        System.out.println("Insira 5 números diferentes");
 
-            for (int j = 0; j <= 4; j++) {
-                igual = 0;
-                for (int k = 0; k <= 4; k++) {
-                    if (lista[j] == lista[k]) {
-                        igual = igual + 1;
-                        if (igual >= 2) {
-                            c = 2;
-                            j = 4;
-                            break;
-                        }
-                    }
-                }
-            }
-            if (igual < 2) {
-                c = 0;
-            }
-
+        for (int i = 0; i <= 4; i++) {
+            numero = sc.nextInt();
+            lista[i] = numero;
         }
 
         while (verifica == 1) {
