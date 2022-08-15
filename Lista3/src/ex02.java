@@ -1,5 +1,3 @@
-import javax.sound.midi.Soundbank;
-
 public class ex02 extends AuxScanner {
 
     public static void main(String[] args) {
