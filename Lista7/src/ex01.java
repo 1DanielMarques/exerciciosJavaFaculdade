@@ -1,3 +1,6 @@
+/**
+ * @author Daniel Marques
+ */
 public class ex01 extends AuxScanner {
     public static void main(String[] args) {
         int a[] = new int[10];

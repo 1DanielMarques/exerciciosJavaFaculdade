@@ -1,3 +1,6 @@
+/**
+ * @author Daniel Marques
+ */
 public class ex03 extends AuxScanner {
     public static void main(String[] args) {
         int vet[] = new int[6];

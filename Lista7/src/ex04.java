@@ -1,3 +1,6 @@
+/**
+ * @author Daniel Marques
+ */
 public class ex04 extends AuxScanner {
     public static int v1[] = new int[10];
     public static int v2[] = new int[10];
@@ -17,8 +20,6 @@ public class ex04 extends AuxScanner {
             v2[i] = sc.nextInt();
         }
         v3[0] = v1[0];
-        // 1 2 2 3 4
-        // 1   2   3
         System.out.println("Vetor resultante");
         vetorResultante1();
         vetorResultante2();
