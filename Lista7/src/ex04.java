@@ -24,6 +24,7 @@ public class ex04 extends AuxScanner {
         vetorResultante1();
         vetorResultante2();
         for (int i = 0; i < v3.length; i++) {
+            if(v3[i] !=0)
             System.out.print(v3[i] + " ");
         }
 

@@ -10,6 +10,7 @@ public class ex05 extends AuxScanner {
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe um numero inteiro positivo");
         int n = sc.nextInt();
+        System.out.println("--TRIÂNGULO DE PASCAL--");
         int vet[] = new int[n + 1];
         vet[0] = 1;
 
