@@ -1,4 +1,4 @@
-package exAula_dia_1509;
+package exAula_dia_1509.ex01;
 
 import java.util.Scanner;
 
