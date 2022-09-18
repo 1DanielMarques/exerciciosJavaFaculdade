@@ -1,16 +1,13 @@
 /**
  * @author Daniel Marques
  */
-public class ex02 extends AuxScanner {
+public class ex03 extends AuxScanner {
     public static void main(String[] args) {
-        int[][] mat = new int[5][5];
+        int[][] mat = new int[4][4];
+
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[i].length; j++) {
-                if (i == j) {
-                    mat[i][j] = 1;
-                } else {
-                    mat[i][j] = 0;
-                }
+                mat[i][j] = i * j;
             }
         }
         for (int i = 0; i < mat.length; i++) {
