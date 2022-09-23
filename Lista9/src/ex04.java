@@ -8,6 +8,7 @@ public class ex04 {
         int[][] alunos = new int[3][4];
         int maior = 0;
         int matMaior = 0;
+        int soma = 0;
 
         for (int i = 0; i < alunos.length; i++) {
             System.out.println("-Aluno(a) #" + (i + 1) + "-");
@@ -33,7 +34,22 @@ public class ex04 {
         }
         for (int i = 0; i < alunos.length; i++) {
             for (int j = 0; j < alunos[i].length; j++) {
-                System.out.print(alunos[i][j] + " | ");
+                switch (j) {
+                    case 0:
+                        System.out.print("Matrícula: ");
+                        break;
+                    case 1:
+                        System.out.print("Media provas: ");
+                        break;
+                    case 2:
+                        System.out.print("Media trabalhos: ");
+                        break;
+                    case 3:
+                        System.out.print("Nota final: ");
+                        break;
+
+                }
+                System.out.println(alunos[i][j]);
             }
             System.out.println();
         }
@@ -46,6 +62,10 @@ public class ex04 {
             }
         }
         System.out.println("Matrícula maior nota final: " + matMaior);
+        for (int i = 0; i < alunos.length; i++) {
+            soma += alunos[i][3];
+        }
+        System.out.println("Média notas finais: "+ soma/ alunos.length);
 
         sc.close();
     }
