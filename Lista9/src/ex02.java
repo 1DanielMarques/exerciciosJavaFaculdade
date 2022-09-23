@@ -1,8 +1,5 @@
-import java.util.Locale;
-
-public class ex01 extends AuxScanner {
+public class ex02 extends AuxScanner{
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
         double[][] mat = new double[3][3];
         double soma = 0;
         for (int i = 0; i < mat.length; i++) {
@@ -19,10 +16,13 @@ public class ex01 extends AuxScanner {
             System.out.println();
         }
         for (int i = 0; i < mat.length; i++) {
-            soma += mat[i][i];
+            for (int j = 0; j < mat[i].length; j++) {
+                if(i>j){
+                    soma += mat[i][j];
+                }
+
+            }
         }
-        System.out.println("Soma: " +soma);
-
-
+        System.out.println("Soma: " + soma);
     }
 }
