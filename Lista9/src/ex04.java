@@ -5,7 +5,7 @@ public class ex04 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        int[][] alunos = new int[3][4];
+        int[][] alunos = new int[5][4];
         int maior = 0;
         int matMaior = 0;
         int soma = 0;
@@ -33,6 +33,7 @@ public class ex04 {
             }
         }
         for (int i = 0; i < alunos.length; i++) {
+            System.out.println();
             for (int j = 0; j < alunos[i].length; j++) {
                 switch (j) {
                     case 0:
@@ -51,7 +52,6 @@ public class ex04 {
                 }
                 System.out.println(alunos[i][j]);
             }
-            System.out.println();
         }
         maior = alunos[0][3];
         matMaior = alunos[0][0];
@@ -61,11 +61,11 @@ public class ex04 {
                 matMaior = alunos[i][0];
             }
         }
-        System.out.println("Matrícula maior nota final: " + matMaior);
+        System.out.println("\nMatrícula maior nota final: " + matMaior);
         for (int i = 0; i < alunos.length; i++) {
             soma += alunos[i][3];
         }
-        System.out.println("Média notas finais: "+ soma/ alunos.length);
+        System.out.println("Média notas finais: " + soma / alunos.length);
 
         sc.close();
     }
