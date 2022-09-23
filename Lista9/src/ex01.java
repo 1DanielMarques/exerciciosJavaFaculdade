@@ -23,6 +23,6 @@ public class ex01 extends AuxScanner {
         }
         System.out.println("Soma: " +soma);
 
-
+        sc.close();
     }
 }
