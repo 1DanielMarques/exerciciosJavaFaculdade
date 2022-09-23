@@ -1,9 +1,8 @@
 import java.util.Locale;
 import java.util.Random;
 
-public class ex03 extends AuxScanner {
+public class ex03{
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
         int[][] cart = new int[5][5];
         Random random = new Random();
         int numero = 0;
@@ -40,8 +39,5 @@ public class ex03 extends AuxScanner {
             }
             System.out.println();
         }
-
-
-        sc.close();
     }
 }
